@@ -11,9 +11,9 @@ $\mathcal{D}u = -\text{div}k\nabla{u} = - \sum_{\alpha=1}^2\frac{\partial}{\part
 
 $\mathcal{C}$ — оператор конвекционного переноса, принимающий одну из 2-х форм.
 
-$\mathcal{C}_1 = \big(\vec{v}, \nabla \big)u=\sum_{\alpha = 1}^2v^\alpha(x)\frac{\partial u}{\partial x^\alpha}$ — в недивергентной (неконсервативной) форме.
+$\mathcal{C_1} = \left(\vec{v}, \nabla \right)u=\sum_{\alpha = 1}^2v^\alpha(x)\frac{\partial u}{\partial x^\alpha}$ — в недивергентной (неконсервативной) форме.
 
-$\mathcal{C}_2 = \text{div}\big( \vec{v}u\big) = \sum_{\alpha=1}^2\frac{\partial}{\partial x^\alpha}\big(v^\alpha u \big)$ — в дивергентной (консервативной) форме.
+$\mathcal{C_2} = \text{div}\left( \vec{v}u\right) = \sum_{\alpha=1}^2\frac{\partial}{\partial x^\alpha}\left(v^\alpha u \right)$ — в дивергентной (консервативной) форме.
 
 Рассмотрим задачу Дирихле:
 
