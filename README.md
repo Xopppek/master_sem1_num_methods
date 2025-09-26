@@ -7,13 +7,13 @@ $\Omega \subset \mathbb{R}^2$ — выпуклое множество, $u \in C^
 
 Обозначим $\mathcal{A} = \mathcal{D} + \mathcal{C}$.
 
-$\displaystyle \mathcal{D}u = -\operatorname{div}k\nabla{u} = - \sum_{\alpha=1}^2\frac{\partial}{\partial x^\alpha}\left(k(x)\frac{\partial u}{\partial x^\alpha} \right)$ — оператор диффузионного переноса.
+$\displaystyle \mathcal{D}u = -\text{div}k\nabla{u} = - \sum_{\alpha=1}^2\frac{\partial}{\partial x^\alpha}\left(k(x)\frac{\partial u}{\partial x^\alpha} \right)$ — оператор диффузионного переноса.
 
 $\mathcal{C}$ — оператор конвекционного переноса, принимающий одну из 2-х форм.
 
 $\displaystyle \mathcal{C}_1 = \left(\vec{v}, \nabla \right)u=\sum_{\alpha = 1}^2v^\alpha(x)\frac{\partial u}{\partial x^\alpha}$ — в недивергентной (неконсервативной) форме.
 
-$\displaystyle \mathcal{C}_2 = \operatorname{div}\left( \vec{v}u\right) = \sum_{\alpha=1}^2\frac{\partial}{\partial x^\alpha}\left(v^\alpha u \right)$ — в дивергентной (консервативной) форме.
+$\displaystyle \mathcal{C}_2 = \text{div}\left( \vec{v}u\right) = \sum_{\alpha=1}^2\frac{\partial}{\partial x^\alpha}\left(v^\alpha u \right)$ — в дивергентной (консервативной) форме.
 
 Рассмотрим задачу Дирихле:
 
